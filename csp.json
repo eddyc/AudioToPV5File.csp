@@ -1,1 +1,22 @@
-{"name":"AudioToPV5File.csp","user":"eddyc","repo":"AudioToPV5File.csp","version":"1.0.0","author":"Edward Costello","email":"phasereset@gmail.com","description":"Convert audio files to pv5 files","dependencies":["eddyc/AudioToPolar.csp/1.0.0","eddyc/ChangeFileExtension.csp/1.0.0"],"csd":{"entrypoint":"AudioToPV5File.csd","macros":[{"symbol":"FILE_PATH","description":"The file path to convert"}]}}
+{
+    "name": "AudioToPV5File.csp",
+    "user": "eddyc",
+    "repo": "AudioToPV5File.csp",
+    "version": "1.0.0",
+    "author": "Edward Costello",
+    "email": "phasereset@gmail.com",
+    "description": "Convert audio files to pv5 files",
+    "dependencies": [
+        "eddyc/AudioToPolar.csp/1.0.0",
+        "eddyc/ChangeFileExtension.csp/1.0.0"
+    ],
+    "csd": {
+        "entrypoint": "AudioToPV5File.csd",
+        "macros": [
+            {
+                "symbol": "FILE_PATH",
+                "description": "The file path to convert"
+            }
+        ]
+    }
+}
