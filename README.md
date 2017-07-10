@@ -1,6 +1,6 @@
 # AudioToPV5File.csp
 
-Write audio as PV5 files
+Convert audio files to pv5 files
 
 ### Author
 
@@ -31,4 +31,4 @@ AudioToPV5File.csp
 
 | Symbol | Description |
 |---|---|
-| FILE_PATH | The file path to save the audio |
+| FILE_PATH | The file path to convert |
