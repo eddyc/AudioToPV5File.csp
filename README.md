@@ -20,7 +20,7 @@ AudioToPV5File.csp
 
 ### Version
 
-1.0.0
+1.0.11
 
 ### Dependencies
 
