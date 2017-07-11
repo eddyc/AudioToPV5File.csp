@@ -2,7 +2,7 @@
     "name": "AudioToPV5File.csp",
     "user": "eddyc",
     "repo": "AudioToPV5File.csp",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Edward Costello",
     "email": "phasereset@gmail.com",
     "description": "Convert audio files to pv5 files",
