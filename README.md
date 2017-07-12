@@ -20,14 +20,14 @@ AudioToPV5File.csp
 
 ### Version
 
-1.0.11
+1.0.0
 
 ### Dependencies
 
 [AudioToPolar.csp](https://www.github.com/eddyc/AudioToPolar.csp), [ChangeFileExtension.csp](https://www.github.com/eddyc/ChangeFileExtension.csp)
 
 
-## Macros 
+## Macros
 
 | Symbol | Description |
 |---|---|
