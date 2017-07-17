@@ -33,7 +33,7 @@ instr AudioToPV5File
 
     kframe, kmagnitudes[], kfrequencies[] AudioToPolar aSig, ifftsize, ihopsize
     SoutputPath ChangeFileExtension Spath, "pv5"
-    hdf5write SoutputPath, kmagnitudes, kfrequencies
+    hdf5write SoutputPath, kmagnitudes, kfrequencies, ifftsize, ihopsize
 
     if (ki == kFrameLength) then
         event "e", 0, 0
