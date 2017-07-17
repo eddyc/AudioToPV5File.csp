@@ -19,19 +19,19 @@ nchnls = 2
 instr AudioToPV5File
 
     Spath = "$FILE_PATH"
-    iFFTSize init 1024
-    iHop init iFFTSize/4
+    ifftsize init 1024
+    ihopsize init ifftsize/4
     ki init 0
     puts Spath, 1
 
     iFileLength filelen Spath
 
     iFileLength = iFileLength * sr
-    kFrameLength = int((iFileLength - iFFTSize) / iHop)
+    kFrameLength = int((iFileLength - ifftsize) / ihopsize)
 
     aSig diskin2 Spath
 
-    kframe, kmagnitudes[], kfrequencies[] AudioToPolar aSig, iFFTSize, iHop
+    kframe, kmagnitudes[], kfrequencies[] AudioToPolar aSig, ifftsize, ihopsize
     SoutputPath ChangeFileExtension Spath, "pv5"
     hdf5write SoutputPath, kmagnitudes, kfrequencies
 
